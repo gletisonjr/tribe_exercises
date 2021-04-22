@@ -13,6 +13,18 @@ if (a == b) message += "A é igual a B, ";
 if (a == c) message += "A é igual a C, ";
 if (b == c) message += "B é igual a C.";
 
+console.log(message);
+
+if (a > b && a > c) {
+    message = "A é o maior número.";
+} else {if (b > a && b > c) {
+            message = "B é o maior número.";
+} else {
+        message = "C é o maior número."
+}
+    
+}
+
 console.log("valor de A: " + a);
 console.log("valor de B: " + b);
 console.log("valor de C: " + c);
