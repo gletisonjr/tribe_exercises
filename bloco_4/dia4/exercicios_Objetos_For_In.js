@@ -10,3 +10,9 @@ console.log(`Bem-vinda, ${info.personagem}`);
 // Exercicio 2
 info['recorrente'] = 'Sim';
 console.log(info); 
+
+// Exercicio 3
+
+for (const informacao in info) {
+    console.log(informacao);
+}
