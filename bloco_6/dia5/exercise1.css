@@ -1,8 +1,12 @@
+* {
+    margin: 5px;
+}
 body {
-
+  font-size: x-large;
 }
 h1 {
-
+    font-size: xx-large;
+    text-align: center;
 }
 h2 {
 
@@ -13,5 +17,39 @@ img {
 }
 
 figure {
-    margin: 0;
+    margin: 25px 15px;
+}
+
+@media screen and (min-width: 765px){
+    body {
+        background-color: #f0f8ff;
+        font-size: large;
+        display: flex;
+        flex-direction: column;
+    }
+    * {
+        margin: 10px;
+    }
+    body figure {
+        width: 300px;
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    body {
+        background-color: aquamarine;
+        font-size: x-large;
+        display: flex;
+        flex-direction: column;
+    }
+    * {
+        margin: 15px;
+        max-width: 1440px;
+    }
+    body figure {
+        width: 300px;
+        display: inline;
+        margin: 10px 5px;
+    }
 }
